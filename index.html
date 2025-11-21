@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Johnson - Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">IN</div>
+            
+            <!-- Hamburger Menu Toggle (CSS-only) -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            
+            <!-- Navigation -->
+            <nav class="nav">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title" style="font-weight: bolder;">Hi, I'm Imandi Nitya</h1> <!--changed-->
+            <p class="hero-subtitle">Full Stack Developer | UI/UX Enthusiast</p>
+            <p class="hero-description">
+                I build beautiful, functional web applications that solve real problems. 
+                With expertise in modern web technologies, I create seamless digital experiences 
+                that users love.
+            </p>
+            <a href="#contact" class="cta-button">Contact Me</a>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-accent"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <h2 class="section-title" style="font-weight: bold;">About Me</h2><!--changed-->
+            <p class="about-text">
+                I'm a passionate developer with 5+ years of experience in building web applications. 
+                I love transforming complex problems into simple, beautiful, and intuitive designs.
+            </p>
+            <p class="about-text">
+                When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
+                or sharing knowledge with the developer community.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="skills-container">
+            <h2 class="section-title" style="font-weight: bold;">Skills</h2><!--changed-->
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVVaXEpF7qV2l-2vRz7IlTikY6AhJfmyS-ow&s" alt="logo" style="width:50px ;">
+                    </div>
+                    <h3 class="skill-name">UI/UX Design</h3>
+                    <p class="skill-description">Creating intuitive and beautiful user interfaces</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="https://www.pngfind.com/pngs/m/685-6854994_react-logo-no-background-hd-png-download.png" alt="logo" style="width: 50px;">
+                    </div>
+                    <h3 class="skill-name">React.js</h3>
+                    <p class="skill-description">Building modern, interactive web applications</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWXw49cxK5s-1M2QXmlDg4pDxg17U8n7lXpw&s" alt="logo" style="width: 50px;"> <!--changed-->
+                    </div>
+                    <h3 class="skill-name">TypeScript</h3>
+                    <p class="skill-description">Writing type-safe, scalable code</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗄️</div>
+                    <h3 class="skill-name">Backend Development</h3>
+                    <p class="skill-description">Node.js, Express, and database design</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎯</div>
+                    <h3 class="skill-name">Responsive Design</h3>
+                    <p class="skill-description">Mobile-first, accessible web design</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🚀</div>
+                    <h3 class="skill-name">Web Performance</h3>
+                    <p class="skill-description">Optimization and fast-loading applications</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="contact-subtitle">I'd love to hear about your next project. Feel free to reach out!</p>
+            
+            <a href="mailto:hello@alexjohnson.dev" class="contact-button">Send Me an Email</a>
+            
+            <!-- Social Media Links -->
+            <div class="social-links">
+                <a href="https://github.com" class="social-icon" aria-label="GitHub">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.002 12.002 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                    </svg>
+                </a>
+                <a href="https://linkedin.com" class="social-icon" aria-label="LinkedIn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.986-2.236-1.081 0-1.722.722-2.002 1.413-.103.25-.129.597-.129.945v5.447h-3.554s.05-8.844 0-9.768h3.554v1.391c.435-.671 1.213-1.627 2.948-1.627 2.154 0 3.773 1.409 3.773 4.438v5.566zM5.337 8.855c-1.144 0-1.915-.759-1.915-1.71 0-.955.77-1.71 1.958-1.71 1.187 0 1.915.754 1.94 1.71 0 .951-.753 1.71-1.983 1.71zm1.581 11.597H3.635V9.684h3.283v10.768zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                    </svg>
+                </a>
+                <a href="https://twitter.com" class="social-icon" aria-label="Twitter">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M23.953 4.57a10 10 0 002.856-5.51 10 10 0 01-2.74 1.06 4.85 4.85 0 00-8.55 4.42 13.76 13.76 0 01-10-5.07 4.85 4.85 0 001.5 6.47A4.83 4.83 0 012.81 9.75v.06a4.85 4.85 0 003.88 4.75 4.85 4.85 0 01-2.19.08 4.85 4.85 0 004.53 3.37A9.74 9.74 0 010 22.27a13.75 13.75 0 007.45 2.18c8.94 0 13.82-7.41 13.82-13.82 0-.21 0-.42-.01-.62a9.86 9.86 0 002.41-2.5z"/>
+                    </svg>
+                </a>
+                <a href="https://instagram.com" class="social-icon" aria-label="Instagram">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <rect x="2" y="2" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" fill="none" stroke="currentColor" stroke-width="2"/>
+                        <circle cx="17.5" cy="6.5" r="1.5"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Imandi Nitya. All rights reserved.</p>
+        <p>Crafted with passion and clean code.</p>
+    </footer>
+</body>
+</html>
